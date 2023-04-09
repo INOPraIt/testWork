@@ -1,0 +1,89 @@
+.containerGenLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.containerLists {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 86px 284px;
+  width: 31.5%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+
+  .itemAvatarAndName {
+    display: flex;
+
+    .immageItemList {
+      margin-top: 20px;
+      margin-left: 20px;
+
+      .imgOnesAva {
+        width: 45px;
+        height: 45px;
+      }
+    }
+
+    .nameAndNick {
+      .names {
+        display: flex;
+
+        .textName {
+          color: #050038;
+          font-family: 'Circular Std';
+          font-weight: 500;
+          font-size: 16px;
+          margin-top: 24px;
+          margin-left: 10px;
+        }
+
+        .imgIcon {
+          width: 15px;
+          height: 16px;
+          margin-top: 24px;
+          margin-left: 5px;
+        }
+      }
+
+      .nickNameText {
+        color: #596068;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+
+    .twiterIconItem {
+      margin-top: 30px;
+      margin-left: 45%;
+    }
+
+  }
+
+  .textOneDescription {
+    width: 90%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #050038;
+    margin-left: 5%;
+  }
+
+  .textTwoDescription {
+    width: 90%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #050038;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+}
